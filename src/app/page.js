@@ -70,7 +70,7 @@ export default function HomePage() {
       }}
     >
       <ThemeContext.Provider
-        value={{ theme, toggleTheme, setDarkTheme, setLightTheme, lang }}
+        value={{ theme, toggleTheme, setDarkTheme, setLightTheme }}
       >
         <LangContext.Provider value={{ lang, toggleLang }}>
           <Header />
